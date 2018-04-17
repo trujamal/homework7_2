@@ -17,7 +17,21 @@ std::vector<int> sorting_algorithim(std::vector a) {
 
     // Radix Sort Algorithim
 
-
+/**
+ * radixSort(inout theArray:ItemArray, in n:integer, in d:integer)
+// sort n d-digit integers in the array theArray
+	for (j=d down to 1) {
+	     Initialize 10 groups to empty
+	     Initialize a counter for each group to 0
+	     for (i=0 through n-1) {
+	          k = jth digit of theArray[i]
+	          Place theArrar[i] at the end of group k
+	          Increase kth counter by 1
+	     }
+	     Replace the items  in theArray with all the items in group 0,
+  	     followed by all the items in group 1, and so on.
+	}
+ */
 
 
 
