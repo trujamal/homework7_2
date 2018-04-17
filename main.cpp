@@ -31,6 +31,10 @@ std::vector<int> sorting_algorithim(std::vector a) {
 	     Replace the items  in theArray with all the items in group 0,
   	     followed by all the items in group 1, and so on.
 	}
+
+ UVA 120
+ https://saicheems.wordpress.com/2013/11/05/uva-120-stacks-of-flapjacks/
+
  */
 
 
